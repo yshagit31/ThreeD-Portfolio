@@ -8,6 +8,7 @@ import { useMediaQuery } from 'react-responsive';
 import CanvasLoader from '../components/canvasLoader';
 import { AnimatePresence, motion } from "framer-motion";
 import Sparkles from '../components/SparklesContainer';
+import Button from '../components/Button';
 
  export const calculateSizes=(isSmall, isMobile, isTablet)=>{
     return {
@@ -33,7 +34,7 @@ const Hero = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setIndex((prev) => (prev + 1) % phrases.length);
-    }, 3000);
+    }, 1500);
     return () => clearInterval(interval);
   }, []);
 
@@ -152,6 +153,16 @@ const Hero = () => {
             <directionalLight position={[10,10,10]} intensity={1} />
             </Suspense>
         </Canvas>
+      </div>
+
+      <div className='absolute bottom-7 left-0 right-0 w-full z-10 c-space'>
+        <a href="#about">
+          {/* Enter My Digital World */}
+          {/* Explore My 3D Portfolio */}
+          {/* Unveil the 3D Experience */}
+          {/* Step In 3D Digital World */}
+          <Button name="Enter My Digital World " isBeam containerClass="sm:w-fit w-full sm:min-w-96"></Button>
+        </a>
       </div>
     </section>
   )

@@ -123,7 +123,8 @@ body {
   }
 
   .work-content_bar {
-    @apply flex-1 w-0.5 mt-4 h-full bg-black-300 group-hover:bg-black-500 group-last:hidden;
+    /* @apply flex-1 w-0.5 mt-4 h-full bg-black-300 group-hover:bg-black-500 group-last:hidden; */
+      @apply flex-1 w-0.5 mt-4 h-full bg-gray-600 group-hover:bg-gray-400 group-last:hidden;
   }
 
   /* contact section */

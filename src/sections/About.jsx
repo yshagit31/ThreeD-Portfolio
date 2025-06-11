@@ -22,7 +22,8 @@ const About = () => {
             <img src='/assets/grid1.png' alt='grid-1' className='w-full sm:h-[276px] h-fit object-contain'/>
             <div>
                 <p className='grid-headtext'>Hi, I'm Shashank</p>
-                <p className='grid-subtext'> As a passionate Fullstack Developer I build scalable, responsive applications using modern tech like React, Node.js, and Next.js, blending clean code with creative design to solve real-world problems.</p>
+                <p className='grid-subtext'> I’m a passionate Fullstack Developer who creates scalable, responsive applications using modern technologies 
+                  like React, Node.js, and Next.js.</p>
             </div>
         </div>
       </div>
