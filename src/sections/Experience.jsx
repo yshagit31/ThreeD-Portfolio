@@ -4,7 +4,7 @@ import { OrbitControls } from '@react-three/drei';
 
 import { workExperiences } from '../constants'
 import Developer from '../components/Developer.jsx';
-import CanvasLoader from '../components/canvasLoader.jsx';
+import CanvasLoader from '../components/CanvasLoader.jsx';
 
 const Experience = () => {
 

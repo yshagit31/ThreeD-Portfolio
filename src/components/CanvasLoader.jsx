@@ -23,11 +23,9 @@ const CanvasLoader = () => {
             {progress !=0 ? `${progress.toFixed(2)}` : 'Loading...'} 
 
             </p>
-
         </span>
-      
     </Html>
   )
 }
 
-export default CanvasLoader
+export default CanvasLoader;
