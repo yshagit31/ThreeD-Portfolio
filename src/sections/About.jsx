@@ -60,7 +60,8 @@ const About = () => {
                 <p className="grid-subtext">
                 Based in Bengaluru, India, I’m open to both remote and on-site opportunities worldwide.
                 </p>
-                <Button name="Contact Me" isBeam containerClass="w-full mt-10"></Button>
+                <a href="/assets/ShashankYadavResume.pdf" download>
+                <Button name="My Resume" isBeam containerClass="w-full mt-10"></Button></a>
             </div>
         </div>
       </div>
