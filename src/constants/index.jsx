@@ -143,3 +143,34 @@ export const workExperiences = [
     animation: 'salute',
   },
 ];
+
+export const SocialLinks=[
+  {
+    id:1,
+    name:'GitHub',
+    icon:'/assets/github.svg',
+    href:'https://github.com/yshagit31',
+    class:'w-1/2 h-1/2'
+  },
+    {
+    id:2,
+    name:'LinkedIn',
+    icon:'/assets/linkedin.svg',
+    href:'https://www.linkedin.com/in/shashank-yadav-870577259',
+    class:'w-1/2 h-1/2'
+  },
+    {
+    id:3,
+    name:'Twitter',
+    icon:'/assets/twitterwhite.svg',
+    href:'https://twitter.com/Shashank255722',
+    class:'w-2/5 h-2/5'
+  },
+    {
+    id:4,
+    name:'GitHub',
+    icon:'/assets/instagram.svg',
+    href:'https://www.instagram.com/wayfarerreflections/',
+    class:'w-1/2 h-1/2'
+  },
+]
