@@ -5,7 +5,7 @@ import HackerRoom from '../components/Hackerroom.jsx'
 import {Leva, useControls} from 'leva';
 import { OrbitControls } from '@react-three/drei';
 import { useMediaQuery } from 'react-responsive';
-import CanvasLoader from '../components/canvasLoader';
+import CanvasLoader from '../components/CanvasLoader.jsx';
 import { AnimatePresence, motion } from "framer-motion";
 import Sparkles from '../components/SparklesContainer';
 import Button from '../components/Button';

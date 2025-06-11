@@ -1,6 +1,5 @@
 import React, {useState} from 'react'
 import { navLinks } from '../constants/index';
-import { div } from 'three/webgpu';
 
 const NavItems= ()=>{
     return(

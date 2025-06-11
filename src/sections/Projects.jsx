@@ -2,7 +2,7 @@ import React, { Suspense, useState } from 'react'
 import { myProjects } from '../constants';
 import { Canvas } from '@react-three/fiber';
 import { Center,OrbitControls } from '@react-three/drei';
-import CanvasLoader from '../components/canvasLoader';
+import CanvasLoader from '../components/CanvasLoader.jsx';
 import DemoComputer from '../components/DemoComputer';
 import gsap from 'gsap';
 import {useGSAP} from '@gsap/react';
