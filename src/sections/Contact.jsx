@@ -17,19 +17,24 @@ const Contact = () => {
         setForm({...form,[name]:value});
       }
 
+
+
     const  handleSubmit= async (e)=>{
         e.preventDefault();
         setLoading(true);
+        const serviceId=import.meta.env.VITE_SERVICE_ID;
+        const templateId=import.meta.env.VITE_TEMPLATE_ID;
+        const publickKey= import.meta.env.VITE_PUBLIC_KEY
         try{
             await  emailjs.send(
-            'service_jki3zpd',
-            'template_fxnouux',
+            serviceId,
+            templateId,
             {
                 name:form.name,
                 to_name:"Shashank",
                 email:form.email,
                 message:form.message
-            },'B-kPur4KeD8lPgTA3');
+            },publickKey);
             
             setLoading(false);
 
