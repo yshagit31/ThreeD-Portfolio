@@ -1,7 +1,7 @@
 import { PerspectiveCamera } from '@react-three/drei'
 import { Canvas } from '@react-three/fiber'
 import React, { useRef, useEffect, Suspense,useState } from 'react'
-import HackerRoom from '../components/Hackerroom.jsx'
+import HackerRoom from '../components/HackerRoom.jsx'
 import {Leva, useControls} from 'leva';
 import { OrbitControls } from '@react-three/drei';
 import { useMediaQuery } from 'react-responsive';
