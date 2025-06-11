@@ -59,8 +59,8 @@ MIT License © 2025 **Shashank Yadav**
 
 - 📧 **Email**: [yshashank024@gmail.com](mailto:yshashank024@gmail.com)  
 - 🌍 **Location**: Bengaluru, India  
-- 💼 **LinkedIn**: [linkedin.com/in/shashank-yadav-870577259](https://linkedin.com/in/shashank-yadav-870577259)  
-- 💻 **GitHub**: [github.com/yshagit31](https://github.com/yshagit31)  
+- 💼 **LinkedIn**: [LinkedIn](https://linkedin.com/in/shashank-yadav-870577259)  
+- 💻 **GitHub**: [GitHub](https://github.com/yshagit31)  
 
 
 **Made with ❤️ using React Three Fiber & Mixamo animations.**
