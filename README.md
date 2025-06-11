@@ -2,8 +2,6 @@
 
 Welcome to my interactive 3D portfolio! This project highlights my skills, experiences, and creative work using cutting-edge 3D web technologies like **React Three Fiber**, **Three.js**, and **Mixamo** animations.
 
----
-
 ## 📚 Table of Contents
 
 - [🚀 Live Demo](#-live-demo)
@@ -13,14 +11,12 @@ Welcome to my interactive 3D portfolio! This project highlights my skills, exper
 - [📝 License](#-license)
 - [📬 Contact](#-contact)
 
----
 
 ## 🚀 **Live Demo**
 
 > 🌐 [Visit Portfolio](#)  
 > *(Link coming soon)*
 
----
 
 ## ✨ **Features**
 
@@ -32,7 +28,6 @@ Welcome to my interactive 3D portfolio! This project highlights my skills, exper
 - 🌐 **Interactive and scroll-driven 3D experience**  
 - 📫 **Contact form** with email clipboard copy function  
 
----
 
 ## 🧩 **Technologies Used**
 
@@ -44,7 +39,6 @@ Welcome to my interactive 3D portfolio! This project highlights my skills, exper
 - **Tailwind CSS**  
 - **Vite** (for fast dev server)  
 
----
 
 ## 🧑‍💻 **Sections**
 
@@ -56,21 +50,17 @@ Welcome to my interactive 3D portfolio! This project highlights my skills, exper
 - **Contact** – Social links and email copy button  
 - **Footer** – Final contact and copyright  
 
----
-
 ## 📝 **License**
 
 MIT License © 2025 **Shashank Yadav**
 
----
 
 ## 📬 **Contact**
 
 - 📧 **Email**: [yshashank024@gmail.com](mailto:yshashank024@gmail.com)  
 - 🌍 **Location**: Bengaluru, India  
-- 💼 **LinkedIn**: [linkedin.com/in/shashank-yadav-870577259](https://linkedin.com/in/shashank-yadav-870577259)  
-- 💻 **GitHub**: [github.com/yshagit31](https://github.com/yshagit31)  
+- 💼 **LinkedIn**: [LinkedIn](https://linkedin.com/in/shashank-yadav-870577259)  
+- 💻 **GitHub**: [GitHub](https://github.com/yshagit31)  
 
----
 
 **Made with ❤️ using React Three Fiber & Mixamo animations.**
