@@ -123,11 +123,9 @@ const Hero = () => {
           </h1>
 
       </div>
-      <div className='w-full h-[95%] absolute inset-0 -top-6 md:top-3 lg:top-6'>
-      {/* <div className='w-full h-full'> */}
+      <div className='w-full h-[90%] md:h-full absolute inset-0 -top-6 md:top-3 lg:top-6'>
             <Leva hidden/>
         <Canvas className='w-full h-full'>
-        {/* <Canvas className='w-full h-[95%]'> */}
           <Suspense fallback={<CanvasLoader></CanvasLoader>}>
             <PerspectiveCamera makeDefault position={[-10, 1, 46]}/>
          
