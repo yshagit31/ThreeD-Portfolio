@@ -88,6 +88,7 @@ const Experience = () => {
       setSizes(calculateSizes(width, height));
     }
   };
+  console.log("sizes",sizes);
 
   useEffect(() => {
     updateSizes();
@@ -101,13 +102,13 @@ const Experience = () => {
         <h3 className='head-text'>My Work Experience</h3>
         <div className='work-container'>
           <div className='work-canvas' ref={canvasRef}>
-            <Canvas camera={{ position: [0, 0, sizes.cameraZ] }}>
+            <Canvas camera={{ position: [0, 0, sizes.cameraZ], fov: 30 }}>
               <ambientLight intensity={7} />
               <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
               <directionalLight position={[10, 10, 10]} intensity={1} />
               <OrbitControls enableZoom={false} maxPolarAngle={Math.PI / 2} />
               <Suspense fallback={<CanvasLoader />}>
-                <Developer position-y={-3} scale={sizes.deskScale} animationName={animationName} />
+                <Developer position-y={-6} scale={sizes.deskScale} animationName={animationName} />
               </Suspense>
             </Canvas>
           </div>

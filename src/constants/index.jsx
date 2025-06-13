@@ -179,11 +179,11 @@ export const calculateSizes = (width = 1024, height = 768) => {
   if (width < 480) {
     return { deskScale: 6, cameraZ: 25 };
   } else if (width < 768) {
-    return { deskScale: 3.5, cameraZ: 30 };
+    return { deskScale: 5, cameraZ: 30 };
   } else if (width < 1024) {
-    return { deskScale: 3, cameraZ: 35 };
-  } else if (height < 500) { // to handle landscape modes or small laptop heights
-    return { deskScale: 2.5, cameraZ: 38 };
+    return { deskScale: 4.5, cameraZ: 35 };
+  } else if (height < 500) { 
+    return { deskScale: 3.2, cameraZ: 38 };
   } else {
     return { deskScale: 3.5, cameraZ: 38 };
   }
