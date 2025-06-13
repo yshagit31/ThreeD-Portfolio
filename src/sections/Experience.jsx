@@ -67,8 +67,7 @@
 // export default Experience
 
 
-
-import { useEffect, useState, Suspense } from 'react';
+import { useRef, useEffect, useState, Suspense } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
 
@@ -77,14 +76,23 @@ import Developer from '../components/Developer.jsx';
 import CanvasLoader from '../components/CanvasLoader.jsx';
 
 const Experience = () => {
-  const [sizes, setSizes] = useState(calculateSizes());
-  const { deskScale, cameraZ } = sizes;
+  const canvasRef = useRef(null);
+  const [sizes, setSizes] = useState({ deskScale: 3, cameraZ: 38 });
   const [animationName, setAnimationName] = useState('idle');
 
+  const updateSizes = () => {
+    if (canvasRef.current) {
+      const rect = canvasRef.current.getBoundingClientRect();
+      const width = rect.width;
+      const height = rect.height;
+      setSizes(calculateSizes(width, height));
+    }
+  };
+
   useEffect(() => {
-    const handleResize = () => setSizes(calculateSizes());
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
+    updateSizes();
+    window.addEventListener('resize', updateSizes);
+    return () => window.removeEventListener('resize', updateSizes);
   }, []);
 
   return (
@@ -92,15 +100,14 @@ const Experience = () => {
       <div className='w-full text-white-600'>
         <h3 className='head-text'>My Work Experience</h3>
         <div className='work-container'>
-          <div className='work-canvas'>
-            <Canvas>
+          <div className='work-canvas' ref={canvasRef}>
+            <Canvas camera={{ position: [0, 0, sizes.cameraZ] }}>
               <ambientLight intensity={7} />
               <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
               <directionalLight position={[10, 10, 10]} intensity={1} />
               <OrbitControls enableZoom={false} maxPolarAngle={Math.PI / 2} />
-
               <Suspense fallback={<CanvasLoader />}>
-                <Developer position-y={-3} scale={deskScale} animationName={animationName} />
+                <Developer position-y={-3} scale={sizes.deskScale} animationName={animationName} />
               </Suspense>
             </Canvas>
           </div>
