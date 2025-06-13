@@ -155,7 +155,7 @@ const Hero = () => {
         </Canvas>
       </div>
 
-      <div className='absolute bottom-16 md:bottom-3 left-0 right-0 w-full z-10 c-space'>
+      <div className='absolute bottom-16 md:bottom-10 lg:bottom-3 left-0 right-0 w-full z-10 c-space'>
       {/* <div className='w-full z-10 c-space'> */}
         <a href="#about">
           {/* Enter My Digital World */}
