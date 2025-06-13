@@ -102,7 +102,7 @@ const Hero = () => {
         <p className='sm:text-3xl text-2xl font-medium text-white text-center font-generalsans'> Hi, I am Shashank 
           <span className='waving-hand'> 🖐</span> </p>
     
-            <h1 className="hero_tag text-gray_gradient text-3xl md:text-5xl font-bold leading-snug text-center flex justify-center items-center gap-2 flex-wrap">
+            <h1 className="hero_tag text-gray_gradient flex justify-center items-center gap-2 flex-wrap">
             Transforming&nbsp;
             <span className="relative inline-block overflow-visible text-red-700">
               <AnimatePresence mode="wait">
