@@ -14,8 +14,7 @@ Welcome to my interactive 3D portfolio! This project highlights my skills, exper
 
 ## 🚀 **Live Demo**
 
-> 🌐 [Visit Portfolio](#)  
-> *(Link coming soon)*
+> 🌐 [Visit Portfolio](https://shashank-tjsportfolio.vercel.app)  
 
 
 ## ✨ **Features**

@@ -91,7 +91,7 @@ export const myProjects = [
     desc: 'A sleek personal portfolio website showcasing projects and skills with smooth animations and 3D elements.',
     subdesc:
       'Built using React, Three.js, Tailwind CSS, and Framer Motion to deliver an interactive and visually engaging user experience.',
-    href: '', // add link if any
+    href: 'https://shashank-tjsportfolio.vercel.app/', // add link if any
     texture: '/textures/project/project4.mp4',
     // logo: '/assets/grid1.png',
     logo: '/assets/portfolio.png',
