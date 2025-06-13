@@ -128,7 +128,7 @@ export const workExperiences = [
     pos: 'Full Stack Developer Intern',
     duration: 'Jan 2025 – Feb 2025',
     title:
-      'Implemented frontend white-labeling for 2 clients, customizing the product’s UI to match their branding requirements. Redesigned and revamped 4 major pages—including the Dashboard, Site Audit, Rank Tracker, and Technical Issues—using Next.js, Tailwind CSS, and Material UI. Built a new project listing flow and designed a dedicated Projects page, which contributed to a 5% increase in total clicks, 10% increase in impressions, and 8% boost in CTR. Developed a Chrome Extension for SEO analysis and implemented a real-time GPT-powered chat interface using Next.js, Redux, and MongoDB.',
+     "Customized UI for 2 clients via frontend white-labeling. Revamped 4 major pages (Dashboard, Site Audit, Rank Tracker, Technical Issues) using Next.js, Tailwind CSS, and MUI. Built a new project listing flow and Projects page, increasing clicks by 5%, impressions by 10%, and CTR by 8%. Also developed a Chrome Extension and real-time GPT-powered chat using Next.js, Redux, and MongoDB.",
     icon: '/assets/grocliq.svg',
     animation: 'clapping',
   },
@@ -138,7 +138,7 @@ export const workExperiences = [
     pos: 'Full Stack Web Development Intern',
     duration: 'Sep 2024 – Dec 2024',
     title:
-      'Delivered 3 fully functional, high-fidelity user profile pages using Wix Velo within 10 days. Implemented a new signup flow with real-time validation for all fields—including name, password and WhatsApp number—using JavaScript and RegEx. This reduced the number of incomplete or unsubmitted forms on the dashboard by over 40%, significantly improving data completeness and user onboarding. Integrated the Google Sheets API securely via Wix Secrets Manager to automate backend updates and eliminate manual data entry.',
+      'Built 3 fully functional user profile pages using Wix Velo in 10 days. Developed a real-time validated signup flow using JavaScript and RegEx, reducing incomplete submissions by 40%. Integrated Google Sheets API securely with Wix Secrets Manager to automate backend updates and improve data accuracy.',
     icon: '/assets/fc.avif',
     animation: 'salute',
   },
@@ -174,3 +174,17 @@ export const SocialLinks=[
     class:'w-1/2 h-1/2'
   },
 ]
+
+export const calculateSizes = () => {
+  const width = window.innerWidth;
+
+  if (width < 480) {
+    return { deskScale: 1.8, cameraZ: 25 };
+  } else if (width < 768) {
+    return { deskScale: 2, cameraZ: 30 };
+  } else if (width < 1024) {
+    return { deskScale: 3, cameraZ: 35 };
+  } else {
+    return { deskScale: 3, cameraZ: 38 };  // Bigger scale for large screens
+  }
+};

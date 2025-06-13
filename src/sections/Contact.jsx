@@ -78,12 +78,12 @@ const Contact = () => {
         <form ref={formRef} onSubmit={handleSubmit} className='mt-12 flex flex-col space-y-7'>
             <label className='space-y-3'>
                 <span className='field-label'>Full Name</span>
-                 <input type='text' name="name" value={form.name} onChange={handleChange} required className='field-input' placeholder='John Doe'></input>
+                 <input type='text' name="name" value={form.name} onChange={handleChange} required className='field-input' placeholder='Type your name'></input>
             </label>
 
              <label className='space-y-3'>
                 <span className='field-label'>Email</span>
-                 <input type='email' name="email" value={form.email} onChange={handleChange} required className='field-input' placeholder='johndoe@gmail.com'></input>
+                 <input type='email' name="email" value={form.email} onChange={handleChange} required className='field-input' placeholder='Type your e-mail'></input>
             </label>
 
              <label className='space-y-3'>
