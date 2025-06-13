@@ -179,7 +179,7 @@ export const calculateSizes = () => {
   const width = window.innerWidth;
 
   if (width < 480) {
-    return { deskScale: 1.8, cameraZ: 25 };
+    return { deskScale: 6, cameraZ: 25 };
   } else if (width < 768) {
     return { deskScale: 2, cameraZ: 30 };
   } else if (width < 1024) {
