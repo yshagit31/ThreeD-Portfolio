@@ -121,8 +121,8 @@ body {
   }
 
   .work-canvas {
-    /* @apply lg:col-span-1 w-full rounded-lg bg-black-200 border border-black-300 min-h-[300px] sm:min-h-[350px] md:min-h-[400px] lg:min-h-[500px]; */
-    @apply lg:col-span-1 w-full rounded-lg bg-black-200 border border-black-300;
+    @apply lg:col-span-1 w-full rounded-lg bg-black-200 border border-black-300 min-h-[900px] sm:min-h-[350px] md:min-h-[400px] lg:min-h-[500px];
+    /* @apply lg:col-span-1 w-full rounded-lg bg-black-200 border border-black-300; */
   }
 
   .work-content {
