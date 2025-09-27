@@ -144,6 +144,23 @@ export const workExperiences = [
   },
 ];
 
+export const skills = [
+  { id: 1, name: 'React.js', icon: '/assets/react.svg' },
+  { id: 2, name: 'Node.js', icon: '/assets/nodejs.png' },
+  { id: 3, name: 'TypeScript', icon: '/assets/typescript.svg' }, 
+  { id: 4, name: 'MongoDB', icon: '/assets/mongodb.svg' },
+  { id: 5, name: 'JavaScript', icon: '/assets/javascript.png' },
+  { id: 6, name: 'SQL', icon: '/assets/sql.png' },
+  { id: 8, name: 'TailwindCSS', icon: '/assets/tailwindcss2.png' },
+  { id: 9, name: 'Bootstrap', icon: '/assets/bootstrap.svg' },
+  { id: 7, name: 'CPP', icon: '/assets/cpp.svg' },
+  // { id: 10, name: 'Three.js', icon: '/assets/threejs.png' },
+  // { id: 11, name: 'Framer Motion', icon: '/assets/framer.png' },
+  // { id: 12, name: 'Git', icon: '/assets/github.svg' },
+  // { id: 13, name: 'Next.js', icon: '/assets/next.svg' },
+];
+
+
 export const SocialLinks=[
   {
     id:1,

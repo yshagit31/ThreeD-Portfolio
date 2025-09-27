@@ -179,6 +179,11 @@ body {
   display: inline-block;
 }
 
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+
 .arrow-gradient {
   background-image: linear-gradient(
     to right,
