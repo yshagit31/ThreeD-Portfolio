@@ -33,9 +33,9 @@ const Projects = () => {
     <section className='c-space my-20'>
         <p className='head-text'>My Projects</p>
         <div  className='grid lg:grid-cols-2 grid-cols-1 mt-12 gap-5 w-full'>
-            <div className='flex flex-col gap-5 relative sm:p-10 py-10 px-5 shadow-2xl shadow-black-200'>
-                 <div className='absolute top-0 right-0'>
-                    <img src={currentProject.spotlight} alt='spotlight' className='w-full h-96 object-cover rounded-xl'/>
+            <div className='flex flex-col gap-5 relative z-10 sm:p-10 py-10 px-5 shadow-2xl shadow-black-200'>
+                 <div className='absolute top-0 right-0 z-0 pointer-events-none'>
+                    <img src={currentProject.spotlight} alt='spotlight' className='w-full h-96 object-cover rounded-xl pointer-events-none'/>
                 </div>
                 <div className='p-3 backdrop-filter backdrop-blur-3xl w-fit rounded-lg' style={currentProject.logoStyle}>
                      <img src={currentProject.logo} alt='logo' className='w-10 h-10 shadow-sm'/>
