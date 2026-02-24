@@ -91,9 +91,8 @@ export const myProjects = [
     desc: 'A sleek personal portfolio website showcasing projects and skills with smooth animations and 3D elements.',
     subdesc:
       'Built using React, Three.js, Tailwind CSS, and Framer Motion to deliver an interactive and visually engaging user experience.',
-    href: 'https://shashank-tjsportfolio.vercel.app/', // add link if any
+    href: 'https://shashank-tjsportfolio.vercel.app/',
     texture: '/textures/project/project4.mp4',
-    // logo: '/assets/grid1.png',
     logo: '/assets/portfolio.png',
     logoStyle: {
       backgroundColor: '#0E1F38',
@@ -103,7 +102,7 @@ export const myProjects = [
     spotlight: '/assets/spotlight4.png',
     tags: [
       { id: 1, name: 'React.js', path: '/assets/react.svg' },
-      { id: 2, name: 'Three.js', path: '/assets/threejs.png' }, // add your icon if you want
+      { id: 2, name: 'Three.js', path: '/assets/threejs.png' },
       { id: 3, name: 'TailwindCSS', path: 'assets/tailwindcss.png' },
       { id: 4, name: 'Framer Motion', path: '/assets/framer.png' },
     ],
@@ -112,18 +111,28 @@ export const myProjects = [
 
 
 export const workExperiences = [
-  {
+   {
     id: 1,
+    name: 'BrowserStack',
+    pos: 'Software Engineer – Frontend',
+    duration: 'Aug 2025 – Present',
+    title:
+      'Shipped 6+ production frontend features across AI-driven workflows and debugging dashboards. Implemented real-time Pusher updates reducing manual refresh by 60% and improving responsiveness. Optimized high-traffic, data-dense dashboards for better layout consistency, state handling, and user experience.',
+    icon: '/assets/Browserstack.png',
+    animation: 'victory',
+  },
+  {
+    id: 2,
     name: 'Harman Connected Services',
     pos: 'Software Development Intern',
-    duration: 'Mar 2025 – Present',
+    duration: 'Mar 2025 – July 2025',
     title:
       'Gained hands-on experience with C# and ASP.NET Web Forms under dedicated mentorship. Completed 5+ backend modules and contributed to the development of the SmartEdu Admin Portal, a capstone project with 6+ interconnected modules enabling CRUD operations for users, classes, subjects, teachers, fees, and exams.',
     icon: '/assets/harman.png',
     animation: 'victory',
   },
   {
-    id: 2,
+    id: 3,
     name: 'Grocliq',
     pos: 'Full Stack Developer Intern',
     duration: 'Jan 2025 – Feb 2025',
@@ -133,7 +142,7 @@ export const workExperiences = [
     animation: 'clapping',
   },
   {
-    id: 3,
+    id: 4,
     name: 'First Contact',
     pos: 'Full Stack Web Development Intern',
     duration: 'Sep 2024 – Dec 2024',
@@ -154,10 +163,6 @@ export const skills = [
   { id: 8, name: 'TailwindCSS', icon: '/assets/tailwindcss2.png' },
   { id: 9, name: 'Bootstrap', icon: '/assets/bootstrap.svg' },
   { id: 7, name: 'CPP', icon: '/assets/cpp.svg' },
-  // { id: 10, name: 'Three.js', icon: '/assets/threejs.png' },
-  // { id: 11, name: 'Framer Motion', icon: '/assets/framer.png' },
-  // { id: 12, name: 'Git', icon: '/assets/github.svg' },
-  // { id: 13, name: 'Next.js', icon: '/assets/next.svg' },
 ];
 
 
