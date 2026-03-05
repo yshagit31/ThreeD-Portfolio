@@ -57,7 +57,7 @@ MIT License © 2025 **Shashank Yadav**
 ## 📬 **Contact**
 
 - 📧 **Email**: [yshashank024@gmail.com](mailto:yshashank024@gmail.com)  
-- 🌍 **Location**: Bengaluru, India  
+- 🌍 **Location**: Mumbai, India  
 - 💼 **LinkedIn**: [LinkedIn](https://linkedin.com/in/shashank-yadav-870577259)  
 - 💻 **GitHub**: [GitHub](https://github.com/yshagit31)  
 
