@@ -117,7 +117,7 @@ export const workExperiences = [
     pos: 'Software Engineer – Frontend',
     duration: 'Aug 2025 – Present',
     title:
-      'Shipped 6+ production frontend features across AI-driven workflows and debugging dashboards. Implemented real-time Pusher updates reducing manual refresh by 60% and improving responsiveness. Optimized high-traffic, data-dense dashboards for better layout consistency, state handling, and user experience.',
+      'At BrowserStack, I work on an AI-powered software quality platform that simplifies debugging by helping developers understand why their tests fail. I contribute across the entire development lifecycle—from building intuitive React interfaces to implementing backend services with Java/Spring Boot, coordinating cross-service integrations, and expanding automated test coverage. During my time here, I have shipped 15 production features, delivered real-time user experiences, implemented secure feature gating, and helped improve the reliability and scalability of the platform.',
     icon: '/assets/Browserstack.png',
     animation: 'victory',
   },
